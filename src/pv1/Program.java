@@ -1,5 +1,5 @@
-/*
- * Data je implementacija beskonacnog spila karata (klase 'Spil' i 'Karta').
+package pv1;/*
+ * Data je implementacija beskonacnog spila karata (klase 'pv1.Spil' i 'pv1.Karta').
  *
  * Napraviti nit koja uzima jednu po jednu kartu iz spila i deli ih drugim
  * nitima.
@@ -10,7 +10,6 @@
  * Glavna nit kreira i pokrece sve ostale niti posle cega zavrsava svoj rad.
  */
 
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -81,7 +80,7 @@ class Igrac extends Thread {
         while(k == null) {
 
         }
-        System.out.println("Igrac " + br + " je izvukao kartu: " + k);
+        System.out.println("pv1.Igrac " + br + " je izvukao kartu: " + k);
     }
 
     public void primiKartu(Karta k) {
